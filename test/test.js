@@ -8,7 +8,13 @@ const app = require('../main');
 describe('Basic suite', () => {
 
     it('should respond with "Test"', function (done) {
-        request(app).get('/').expect('Test', done);
+        request(app).get('/').expect('Test', () => {
+            done();
+        });
+    });
+
+    it('should stop the process', () => {
+        process.exit();
     });
 
 });
