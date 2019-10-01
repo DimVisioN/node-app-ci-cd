@@ -1,0 +1,101 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-10-01T17:25:35.033Z",
+    "end": "2019-10-01T17:25:35.051Z",
+    "duration": 18,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "884926c7-a83b-43b2-84d8-143a752cc08e",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7920af2d-4102-4f97-a249-d1dcde83ed3d",
+          "title": "Basic suite",
+          "fullFile": "/home/deviant/Documents/node-app-ci-cd/test/test.js",
+          "file": "/test/test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should respond with \"Test\"",
+              "fullTitle": "Basic suite should respond with \"Test\"",
+              "timedOut": false,
+              "duration": 14,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "request(app).get('/').expect('Test', done);",
+              "err": {},
+              "uuid": "382c6555-01a0-45f0-b8a0-506110ac21e5",
+              "parentUUID": "7920af2d-4102-4f97-a249-d1dcde83ed3d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "382c6555-01a0-45f0-b8a0-506110ac21e5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "autoOpen": "true"
+      },
+      "version": "4.0.1"
+    }
+  }
+}
