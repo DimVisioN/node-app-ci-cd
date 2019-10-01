@@ -5,7 +5,7 @@ const {expect} = require('chai');
 
 describe('Basic suite', () => {
 
-    it('passing test', function (done) {
+    it('passing test', function () {
         expect(true).to.equal(true);
     });
 
