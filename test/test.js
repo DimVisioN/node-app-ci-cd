@@ -4,8 +4,6 @@ const request = require('supertest');
 const {describe, it} = require('mocha');
 const {expect} = require('chai');
 
-const app = require('../main');
-
 describe('Basic suite', () => {
 
     it('failing test', function (done) {
