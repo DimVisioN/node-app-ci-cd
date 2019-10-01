@@ -1,6 +1,5 @@
 'use strict';
 
-const request = require('supertest');
 const {describe, it} = require('mocha');
 const {expect} = require('chai');
 
